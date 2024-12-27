@@ -4,7 +4,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-       <h1>Hello World! I am Lithasa</h1>
+      <h1>Responsive Form Example</h1>
+      <form className="responsive-form">
+        <div className="form-group">
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="message">Message:</label>
+          <textarea id="message" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </div>
   );
 }
