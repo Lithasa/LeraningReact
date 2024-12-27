@@ -1,16 +1,11 @@
 .App {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Example gradient (pink to orange) */
+  min-height: 100vh; /* Make sure the gradient covers the whole viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  color: rgb(216, 31, 31);
 }
 
 .App-header {
@@ -21,18 +16,15 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(32, 227, 10);
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
