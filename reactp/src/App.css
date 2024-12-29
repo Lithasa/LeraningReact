@@ -24,6 +24,15 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.sucsessPage {
+  background: #3304ed;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .form-group {
   margin-bottom: 15px;
   text-align: left;
