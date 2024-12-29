@@ -1,7 +1,7 @@
 /* App.css */
 .App {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #b503eb, #f1fd03);
+  background: linear-gradient(to right, #280276, #030ae0);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,17 +15,8 @@ h1 {
   margin-bottom: 20px;
 }
 
-.formPage {
+.responsive-form {
   background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  width: 100%;
-  max-width: 400px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.sucsessPage {
-  background: #3304ed;
   padding: 20px;
   border-radius: 8px;
   width: 100%;
