@@ -1,7 +1,7 @@
 /* App.css */
 .App {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #036f7d, #f1fd03);
+  background: linear-gradient(to right, #b503eb, #f1fd03);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
