@@ -1,28 +1,18 @@
 
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
+import FormPage from "./FormPage";
+import SuccessPage from "./SuccessPage";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Responsive Form Example</h1>
-      <form className="responsive-form">
-        <div className="form-group">
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" placeholder="Enter your name" required />
-        </div>
-        <div className="form-group">
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" placeholder="Enter your email" required />
-        </div>
-        <div className="form-group">
-          <label htmlFor="message">Message:</label>
-          <textarea id="message" placeholder="Your message" required></textarea>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
-    </div>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<FormPage />} />
+                <Route path="/success" element={<SuccessPage />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
-
