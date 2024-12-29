@@ -1,8 +1,8 @@
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
-import FormPage from "./FormPage";
-import SuccessPage from "./SuccessPage";
+import FormPage from "./formPage";
+import SuccessPage from "./sucsessPage";
 
 function App() {
     return (
