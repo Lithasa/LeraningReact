@@ -1,15 +1,17 @@
 
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
-import FormPage from "./formPage";
-import SuccessPage from "./sucsessPage";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import FormPage from "./FormPage";
+import SuccessPage from "./SuccessPage";
+
 
 function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<FormPage />} />
-                <Route path="/success" element={<SuccessPage />} />
+                <Route path="/" element={<formPage />} />
+                <Route path="/success" element={<sucsessPage />} />
             </Routes>
         </Router>
     );
