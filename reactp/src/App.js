@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Responsive Form Example</h1>
+      <h1>Testing a Responsive Form</h1>
       <form className="responsive-form">
         <div className="form-group">
           <label htmlFor="name">Name:</label>
