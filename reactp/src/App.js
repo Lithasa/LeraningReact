@@ -11,6 +11,10 @@ function App() {
           <input type="text" id="name" placeholder="Enter your name" required />
         </div>
         <div className="form-group">
+          <label htmlFor="address">Address:</label>
+          <input type="text" id="address" placeholder="Enter your address" required />
+        </div>
+        <div className="form-group">
           <label htmlFor="email">Email:</label>
           <input type="email" id="email" placeholder="Enter your email" required />
         </div>
