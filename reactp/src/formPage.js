@@ -11,7 +11,6 @@ const FormPage = () => {
         console.log("Form submitted");
         navigate("/success"); // Navigate to the success page
     };
-    
     return (
         <div>
             <h1>Form Page</h1>
