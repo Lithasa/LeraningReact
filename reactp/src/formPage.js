@@ -20,7 +20,7 @@ const FormPage = () => {
                     <input type="text" name="name" required />
                 </label>
                 <br />
-                <button type="submit">Submit</button>
+                <button type="submit">SUBMIT</button>
             </form>
         </div>
     );
